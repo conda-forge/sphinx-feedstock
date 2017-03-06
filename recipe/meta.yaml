@@ -1,14 +1,13 @@
 {% set version = "1.5.2" %}
 {% set sha256 = "049c48393909e4704a6ed4de76fd39c8622e165414660bfb767e981e7931c722" %}
-{% set pkg_name = 'Sphinx' %}
 
 package:
-  name: {{ pkg_name|lower }}
+  name: sphinx
   version: {{ version }}
 
 source:
-  fn: {{ pkg_name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
+  fn: sphinx-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -53,3 +52,4 @@ extra:
   recipe-maintainers:
     - chohner
     - jakirkham
+    - willingc
