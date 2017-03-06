@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  fn: sphinx-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
+  fn: Sphinx-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/sphinx/Sphinx-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
