@@ -1,5 +1,5 @@
-{% set version = "1.5.3" %}
-{% set sha256 = "4f6b257bea61ee6454538dcdb9e8cf56470b4dc6c4f9f750de4aedc57557814f" %}
+{% set version = "1.5.4" %}
+{% set sha256 = "0ae4f247e6433beaf38473e37bea44d5b3b87bd6d57d8a9f627d81c9a1be1120" %}
 {% set pkg_name = 'Sphinx' %}
 
 package:
@@ -43,7 +43,7 @@ about:
   description: |
     Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
     written by Georg Brandl and licensed under the BSD license.
-    It was originally created for the new Python documentation and it has excellent
+    It was originally created for the new Python documentation, and it has excellent
     facilities for the documentation of Python projects, but C/C++ is already supported
     as well, and it is planned to add special support for other languages as well.
   doc_url: http://www.sphinx-doc.org/en/stable/contents.html
