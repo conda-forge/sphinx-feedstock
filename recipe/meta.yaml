@@ -1,5 +1,5 @@
-{% set version = "1.5.5" %}
-{% set sha256 = "4064ea6c56feeb268838cb8fbbee507d0c3d5d92fa63a7df935a916b52c9e2f5" %}
+{% set version = "1.5.6" %}
+{% set sha256 = "565a72dd39dd6ea2e8c548d34c127c981e4bcaead69a2c456a6e33ef69151ace" %}
 {% set pkg_name = 'Sphinx' %}
 
 package:
