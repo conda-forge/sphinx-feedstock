@@ -1,5 +1,5 @@
-{% set version = "1.6.7" %}
-{% set sha256 = "832bed0dc6099c2abca957d90ff55bc1a6ec4425c13fc144adbae68a970e3775" %}
+{% set version = "1.7.0" %}
+{% set sha256 = "278b7923f3f4ed2a1d1359f0ae94d89ac90ddd4189e8362f4b4d3baa2afe6b4a" %}
 {% set pkg_name = 'Sphinx' %}
 
 package:
@@ -33,6 +33,7 @@ requirements:
     - colorama  # [win]
     - typing
     - sphinxcontrib-websupport
+    - packaging
 
 test:
   commands:
