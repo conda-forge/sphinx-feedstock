@@ -33,6 +33,7 @@ requirements:
     - colorama  # [win]
     - typing
     - sphinxcontrib-websupport
+    - packaging
 
 test:
   commands:
