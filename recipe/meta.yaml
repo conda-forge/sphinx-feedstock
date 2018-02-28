@@ -11,6 +11,11 @@ source:
 build:
   number: 0
   script: python -m pip install --no-deps --ignore-installed .
+  entry_points:
+    - sphinx-build = sphinx.cmd.build:main
+    - sphinx-quickstart = sphinx.cmd.quickstart:main
+    - sphinx-apidoc = sphinx.ext.apidoc:main
+    - sphinx-autogen = sphinx.ext.autosummary.generate:main
 
 requirements:
   build:
@@ -27,7 +32,6 @@ requirements:
     - alabaster
     - imagesize
     - requests
-    - colorama  # [win]
     - typing
     - sphinxcontrib-websupport
     - packaging
