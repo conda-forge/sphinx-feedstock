@@ -10,7 +10,9 @@ source:
 
 build:
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script:
+    - set "PYTHONIOENCODING=UTF-8"                          # [py2k and win]
+    - python -m pip install --no-deps --ignore-installed .
   entry_points:
     - sphinx-build = sphinx.cmd.build:main
     - sphinx-quickstart = sphinx.cmd.quickstart:main
