@@ -10,9 +10,7 @@ source:
 
 build:
   number: 0
-  script:
-    - chcp 65001                                            # [py2k and win]
-    - python -m pip install --no-deps --ignore-installed .
+  script: python -m pip install --no-deps --ignore-installed .  # [not win]
   entry_points:
     - sphinx-build = sphinx.cmd.build:main
     - sphinx-quickstart = sphinx.cmd.quickstart:main
