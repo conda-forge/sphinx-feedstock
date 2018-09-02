@@ -10,7 +10,10 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script:
+  # Workaround for unicode name.
+  - rmdir tests\roots\test-images  # [win and py27]
+  - "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   entry_points:
     - sphinx-build = sphinx.cmd.build:main
     - sphinx-quickstart = sphinx.cmd.quickstart:main
