@@ -9,7 +9,7 @@ source:
   sha256: 652eb8c566f18823a022bb4b6dbc868d366df332a11a0226b5bc3a798a479f17
 
 build:
-  number: 0
+  number: 1000
   script:
   # Workaround for unicode name.
   - rmdir /Q /S tests\roots\test-images  # [win and py27]
