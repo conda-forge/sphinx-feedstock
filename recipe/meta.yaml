@@ -1,4 +1,4 @@
-{% set version = "1.8.3" %}
+{% set version = "1.8.4" %}
 
 package:
   name: sphinx
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/S/Sphinx/Sphinx-{{ version }}.tar.gz
-  sha256: c4cb17ba44acffae3d3209646b6baec1e215cad3065e852c68cc569d4df1b9f8
+  sha256: c1c00fc4f6e8b101a0d037065043460dffc2d507257f2f11acaed71fd2b0c83c
 
 build:
-  number: 1000
+  number: 0
   script:
   # Workaround for unicode name.
   - rmdir /Q /S tests\roots\test-images  # [win and py27]
