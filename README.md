@@ -1,13 +1,9 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About sphinx
 ============
 
 Home: http://www.sphinx-doc.org
 
-Package license: BSD 2-clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -23,9 +19,14 @@ as well, and it is planned to add special support for other languages as well.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sphinx-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sphinx-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/sphinx-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sphinx-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sphinx-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sphinx-feedstock/branch/master)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
