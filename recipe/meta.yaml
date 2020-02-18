@@ -42,7 +42,10 @@ requirements:
     - packaging
 
 test:
+  requires:
+    - pip
   commands:
+    - pip check
     - sphinx-quickstart --version
 
 about:
