@@ -1,4 +1,4 @@
-{% set version = "2.4.3" %}
+{% set version = "2.4.4" %}
 
 package:
   name: sphinx
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/S/Sphinx/Sphinx-{{ version }}.tar.gz
-  sha256: ca762da97c3b5107cbf0ab9e11d3ec7ab8d3c31377266fd613b962ed971df709
+  sha256: b4c750d546ab6d7e05bdff6ac24db8ae3e8b8253a3569b754e445110a0a12b66
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - sphinx-build = sphinx.cmd.build:main
     - sphinx-quickstart = sphinx.cmd.quickstart:main
@@ -52,7 +52,7 @@ about:
   home: http://www.sphinx-doc.org
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: 'Sphinx is a tool that makes it easy to create intelligent and beautiful documentation'
+  summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
   description: |
     Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
     written by Georg Brandl and licensed under the BSD license.
