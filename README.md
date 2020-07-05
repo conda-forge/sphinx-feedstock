@@ -5,7 +5,7 @@ Home: http://www.sphinx-doc.org
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
 
