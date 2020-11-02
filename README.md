@@ -5,9 +5,13 @@ Home: http://www.sphinx-doc.org
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
+
+Development: https://github.com/sphinx-doc/sphinx
+
+Documentation: http://www.sphinx-doc.org/en/stable/contents.html
 
 Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
 written by Georg Brandl and licensed under the BSD license.
