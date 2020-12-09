@@ -40,6 +40,8 @@ requirements:
     - requests >=2.5.0
     - setuptools
     - packaging
+    # only _strictly_ a windows dependency, but appeases `pip check`
+    - colorama
 
 test:
   requires:
