@@ -59,8 +59,7 @@ about:
   home: http://www.sphinx-doc.org
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: Sphinx is a tool that makes it easy to create intelligent and beautiful 
-  mentation
+  summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
   description: |
     Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
     written by Georg Brandl and licensed under the BSD license.
