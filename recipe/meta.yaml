@@ -9,7 +9,7 @@ source:
   sha256: cf5104777571b2b7f06fa88ee08fade24563f4a0594cf4bd17d31c47b8740b4c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -27,7 +27,7 @@ requirements:
     - python >=3.6
     - alabaster >=0.7,<0.8
     - babel >=1.3
-    - docutils >=0.12,<0.17
+    - docutils >=0.14,<0.18
     - imagesize
     - jinja2 >=2.3
     - packaging
