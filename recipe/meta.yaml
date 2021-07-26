@@ -9,7 +9,7 @@ source:
   sha256: 3092d929cd807926d846018f2ace47ba2f3b671b309c7a89cd3306e80c826b13
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -38,10 +38,10 @@ requirements:
     - snowballstemmer >=1.1
     - sphinxcontrib-applehelp
     - sphinxcontrib-devhelp
-    - sphinxcontrib-htmlhelp
+    - sphinxcontrib-htmlhelp >=2.0.0
     - sphinxcontrib-jsmath
     - sphinxcontrib-qthelp
-    - sphinxcontrib-serializinghtml
+    - sphinxcontrib-serializinghtml >=1.1.5
     # only _strictly_ a windows dependency, but appeases `pip check`
     - colorama >=0.3.5
 
