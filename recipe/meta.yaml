@@ -9,7 +9,7 @@ source:
   sha256: 6caad9786055cb1fa22b4a365c1775816b876f91966481765d7d50e9f0dd35cc
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -35,7 +35,6 @@ requirements:
     - pygments >=2.0
     - python
     - requests >=2.5.0
-    - setuptools
     - snowballstemmer >=1.1
     - sphinxcontrib-applehelp
     - sphinxcontrib-devhelp
