@@ -10,7 +10,6 @@ source:
 
 build:
   number: 1
-  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - sphinx-build = sphinx.cmd.build:main
