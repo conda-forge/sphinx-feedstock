@@ -16,14 +16,15 @@ build:
     - sphinx-quickstart = sphinx.cmd.quickstart:main
     - sphinx-apidoc = sphinx.ext.apidoc:main
     - sphinx-autogen = sphinx.ext.autosummary.generate:main
+  skip: true  # [py<36]
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
     - babel
   run:
-    - python >=3.6
+    - python
     - alabaster >=0.7,<0.8
     - babel >=1.3
     - docutils >=0.14,<0.18
