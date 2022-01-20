@@ -9,7 +9,7 @@ source:
   sha256: 6caad9786055cb1fa22b4a365c1775816b876f91966481765d7d50e9f0dd35cc
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -29,12 +29,12 @@ requirements:
     - babel >=1.3
     - docutils >=0.14,<0.18
     - imagesize
+    - importlib-metadata >=4.4
     - jinja2 >=2.3
     - packaging
     - pygments >=2.0
     - python
     - requests >=2.5.0
-    - setuptools
     - snowballstemmer >=1.1
     - sphinxcontrib-applehelp
     - sphinxcontrib-devhelp
@@ -56,7 +56,7 @@ test:
     - sphinx-quickstart --version
 
 about:
-  home: http://www.sphinx-doc.org
+  home: https://www.sphinx-doc.org
   license: BSD-2-Clause
   license_file: LICENSE
   summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
@@ -66,7 +66,7 @@ about:
     It was originally created for the new Python documentation, and it has excellent
     facilities for the documentation of Python projects, but C/C++ is already supported
     as well, and it is planned to add special support for other languages as well.
-  doc_url: http://www.sphinx-doc.org/en/stable/contents.html
+  doc_url: https://www.sphinx-doc.org/en/stable/contents.html
   dev_url: https://github.com/sphinx-doc/sphinx
 
 extra:

@@ -1,7 +1,7 @@
 About sphinx
 ============
 
-Home: http://www.sphinx-doc.org
+Home: https://www.sphinx-doc.org
 
 Package license: BSD-2-Clause
 
@@ -11,7 +11,7 @@ Summary: Sphinx is a tool that makes it easy to create intelligent and beautiful
 
 Development: https://github.com/sphinx-doc/sphinx
 
-Documentation: http://www.sphinx-doc.org/en/stable/contents.html
+Documentation: https://www.sphinx-doc.org/en/stable/contents.html
 
 Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
 written by Georg Brandl and licensed under the BSD license.
