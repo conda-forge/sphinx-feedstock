@@ -154,6 +154,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@AA-Turner](https://github.com/AA-Turner/)
 * [@blink1073](https://github.com/blink1073/)
 * [@ccordoba12](https://github.com/ccordoba12/)
 * [@chohner](https://github.com/chohner/)
