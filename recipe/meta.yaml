@@ -1,4 +1,4 @@
-{% set version = "5.0.2" %}
+{% set version = "5.1.0" %}
 
 package:
   name: sphinx
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/S/Sphinx/Sphinx-{{ version }}.tar.gz
-  sha256: b18e978ea7565720f26019c702cd85c84376e948370f1cd43d60265010e1c7b0
+  sha256: 7893d10d9d852c16673f9b1b7e9eda1606b420b7810270294d6e4b44c0accacc
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - python >=3.6
     - alabaster >=0.7,<0.8
     - babel >=1.3
-    - docutils >=0.14,<0.19
+    - docutils >=0.14,<0.20
     - imagesize
     - importlib-metadata >=4.4
     - jinja2 >=2.3
