@@ -26,15 +26,15 @@ requirements:
   run:
     - python >=3.7
     - alabaster >=0.7,<0.8
-    - babel >=1.3
+    - babel >=2.9
     - docutils >=0.14,<0.20
-    - imagesize
-    - importlib-metadata >=4.4
-    - jinja2 >=2.3
-    - packaging
-    - pygments >=2.0
+    - imagesize >=1.3
+    - importlib-metadata >=4.8
+    - jinja2 >=3.0
+    - packaging >=21.0
+    - pygments >=2.12
     - requests >=2.5.0
-    - snowballstemmer >=1.1
+    - snowballstemmer >=2.0
     - sphinxcontrib-applehelp
     - sphinxcontrib-devhelp
     - sphinxcontrib-htmlhelp >=2.0.0
@@ -42,7 +42,7 @@ requirements:
     - sphinxcontrib-qthelp
     - sphinxcontrib-serializinghtml >=1.1.5
     # only _strictly_ a windows dependency, but appeases `pip check`
-    - colorama >=0.3.5
+    - colorama >=0.4.5
 
 test:
   imports:
