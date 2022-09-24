@@ -55,17 +55,17 @@ test:
     - sphinx-quickstart --version
 
 about:
-  home: https://www.sphinx-doc.org
+  home: https://www.sphinx-doc.org/
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
+  summary: Sphinx makes it easy to create intelligent and beautiful documentation.
   description: |
-    Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
-    written by Georg Brandl and licensed under the BSD license.
-    It was originally created for the new Python documentation, and it has excellent
-    facilities for the documentation of Python projects, but C/C++ is already supported
-    as well, and it is planned to add special support for other languages as well.
-  doc_url: https://www.sphinx-doc.org/en/stable/contents.html
+    Sphinx makes it easy to create intelligent and beautiful documentation.
+    
+    Sphinx uses reStructuredText as its markup language, and many of its strengths
+    come from the power and straightforwardness of reStructuredText and its parsing
+    and translating suite, the Docutils.
+  doc_url: https://www.sphinx-doc.org/en/master/
   dev_url: https://github.com/sphinx-doc/sphinx
 
 extra:
