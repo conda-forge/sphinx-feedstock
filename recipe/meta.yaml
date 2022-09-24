@@ -1,4 +1,4 @@
-{% set version = "5.1.1" %}
+{% set version = "5.2.0" %}
 
 package:
   name: sphinx
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/S/Sphinx/Sphinx-{{ version }}.tar.gz
-  sha256: ba3224a4e206e1fbdecf98a4fae4992ef9b24b85ebf7b584bb340156eaf08d89
+  sha256: 1790c2098937dcfa7871c9d102c24eccd4a8b883b67c5c1e26892fb52d102542
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -23,18 +23,19 @@ requirements:
     - python >=3.7
     - pip
     - babel
+    - flit-core >=3.7
   run:
     - python >=3.7
     - alabaster >=0.7,<0.8
-    - babel >=1.3
+    - babel >=2.9
     - docutils >=0.14,<0.20
-    - imagesize
-    - importlib-metadata >=4.4
-    - jinja2 >=2.3
-    - packaging
-    - pygments >=2.0
+    - imagesize >=1.3
+    - importlib-metadata >=4.8
+    - jinja2 >=3.0
+    - packaging >=21.0
+    - pygments >=2.12
     - requests >=2.5.0
-    - snowballstemmer >=1.1
+    - snowballstemmer >=2.0
     - sphinxcontrib-applehelp
     - sphinxcontrib-devhelp
     - sphinxcontrib-htmlhelp >=2.0.0
@@ -42,7 +43,7 @@ requirements:
     - sphinxcontrib-qthelp
     - sphinxcontrib-serializinghtml >=1.1.5
     # only _strictly_ a windows dependency, but appeases `pip check`
-    - colorama >=0.3.5
+    - colorama >=0.4.5
 
 test:
   imports:
@@ -55,24 +56,24 @@ test:
     - sphinx-quickstart --version
 
 about:
-  home: https://www.sphinx-doc.org
+  home: https://www.sphinx-doc.org/
   license: BSD-2-Clause
   license_file: LICENSE
-  summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
+  summary: Sphinx makes it easy to create intelligent and beautiful documentation.
   description: |
-    Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
-    written by Georg Brandl and licensed under the BSD license.
-    It was originally created for the new Python documentation, and it has excellent
-    facilities for the documentation of Python projects, but C/C++ is already supported
-    as well, and it is planned to add special support for other languages as well.
-  doc_url: https://www.sphinx-doc.org/en/stable/contents.html
+    Sphinx makes it easy to create intelligent and beautiful documentation.
+    
+    Sphinx uses reStructuredText as its markup language, and many of its strengths
+    come from the power and straightforwardness of reStructuredText and its parsing
+    and translating suite, the Docutils.
+  doc_url: https://www.sphinx-doc.org/en/master/
   dev_url: https://github.com/sphinx-doc/sphinx
 
 extra:
   recipe-maintainers:
+    - AA-Turner
+    - blink1073
+    - ccordoba12
     - chohner
     - jakirkham
     - ocefpaf
-    - blink1073
-    - ccordoba12
-    - AA-Turner

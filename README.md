@@ -1,23 +1,23 @@
 About sphinx
 ============
 
-Home: https://www.sphinx-doc.org
+Home: https://www.sphinx-doc.org/
 
 Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-feedstock/blob/main/LICENSE.txt)
 
-Summary: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation
+Summary: Sphinx makes it easy to create intelligent and beautiful documentation.
 
 Development: https://github.com/sphinx-doc/sphinx
 
-Documentation: https://www.sphinx-doc.org/en/stable/contents.html
+Documentation: https://www.sphinx-doc.org/en/master/
 
-Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
-written by Georg Brandl and licensed under the BSD license.
-It was originally created for the new Python documentation, and it has excellent
-facilities for the documentation of Python projects, but C/C++ is already supported
-as well, and it is planned to add special support for other languages as well.
+Sphinx makes it easy to create intelligent and beautiful documentation.
+
+Sphinx uses reStructuredText as its markup language, and many of its strengths
+come from the power and straightforwardness of reStructuredText and its parsing
+and translating suite, the Docutils.
 
 
 Current build status
