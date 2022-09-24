@@ -23,6 +23,7 @@ requirements:
     - python >=3.7
     - pip
     - babel
+    - flit-core >=3.7
   run:
     - python >=3.7
     - alabaster >=0.7,<0.8
