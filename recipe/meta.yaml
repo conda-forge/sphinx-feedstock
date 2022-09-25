@@ -1,4 +1,4 @@
-{% set version = "5.2.0.post0" %}
+{% set version = "5.2.1" %}
 
 package:
   name: sphinx
@@ -77,3 +77,4 @@ extra:
     - chohner
     - jakirkham
     - ocefpaf
+    - matthiasdiener
