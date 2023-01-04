@@ -9,7 +9,7 @@ source:
   sha256: 58c140ecd9aa0abbc8ff6da48a266648eac9e5bfc8e49576efd2979bf46f5961
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -20,12 +20,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - babel
     - flit-core >=3.7
   run:
-    - python >=3.7
+    - python >=3.8
     - alabaster >=0.7,<0.8
     - babel >=2.9
     - docutils >=0.18,<0.20
