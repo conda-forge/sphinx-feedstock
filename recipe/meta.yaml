@@ -33,7 +33,7 @@ requirements:
     - importlib-metadata >=4.8
     - jinja2 >=3.0
     - packaging >=21.0
-    - pygments >=2.12
+    - pygments >=2.13
     - requests >=2.25.0
     - snowballstemmer >=2.0
     - sphinxcontrib-applehelp
