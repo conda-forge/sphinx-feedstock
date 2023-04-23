@@ -1,11 +1,11 @@
-About sphinx
-============
+About sphinx-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.sphinx-doc.org/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sphinx makes it easy to create intelligent and beautiful documentation.
 
