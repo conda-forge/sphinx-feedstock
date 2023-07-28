@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/S/Sphinx/Sphinx-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
   sha256: 59b8e391f0768a96cd233e8300fe7f0a8dc2f64f83dc2a54336a9a84f428ff4e
 
 build:
