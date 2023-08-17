@@ -43,7 +43,7 @@ requirements:
     - sphinxcontrib-qthelp
     - sphinxcontrib-serializinghtml >=1.1.5
     # only _strictly_ a windows dependency, but appeases `pip check`
-    - colorama >=0.4.5`
+    - colorama >=0.4.5
 
 test:
   imports:
