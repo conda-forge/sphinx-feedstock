@@ -1,4 +1,4 @@
-{% set version = "7.1.2" %}
+{% set version = "7.2.0" %}
 
 package:
   name: sphinx
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
-  sha256: 780f4d32f1d7d1126576e0e5ecc19dc32ab76cd24e950228dcf7b1f6d3d9e22f
+  sha256: da9a84f7456885622bb30ebac42467168396ac2e494182c60dd864aa27405ba3
 
 build:
   number: 0
@@ -20,12 +20,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
     - babel
     - flit-core >=3.7
   run:
-    - python >=3.8
+    - python >=3.9
     - alabaster >=0.7,<0.8
     - babel >=2.9
     - docutils >=0.18.1,<0.21
@@ -33,7 +33,7 @@ requirements:
     - importlib-metadata >=4.8
     - jinja2 >=3.0
     - packaging >=21.0
-    - pygments >=2.13
+    - pygments >=2.14
     - requests >=2.25.0
     - snowballstemmer >=2.0
     - sphinxcontrib-applehelp
