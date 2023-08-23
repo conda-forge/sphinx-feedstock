@@ -1,4 +1,4 @@
-{% set version = "7.2.2" %}
+{% set version = "7.2.3" %}
 
 package:
   name: sphinx
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
-  sha256: 1c0abe6d4de7a6b2c2b109a2e18387bf27b240742e1b34ea42ac3ed2ac99978c
+  sha256: ece68bb4d77b7dc090573825db45a6f9183e74098d1c21573485de250b1d1e3f
 
 build:
   number: 0
@@ -41,7 +41,7 @@ requirements:
     - sphinxcontrib-htmlhelp >=2.0.0
     - sphinxcontrib-jsmath
     - sphinxcontrib-qthelp
-    - sphinxcontrib-serializinghtml >=1.1.5
+    - sphinxcontrib-serializinghtml >=1.1.9
     # only _strictly_ a windows dependency, but appeases `pip check`
     - colorama >=0.4.5
 
