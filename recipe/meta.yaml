@@ -58,7 +58,7 @@ test:
 about:
   home: https://www.sphinx-doc.org/
   license: BSD-2-Clause
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: Sphinx makes it easy to create intelligent and beautiful documentation.
   description: |
     Sphinx makes it easy to create intelligent and beautiful documentation.
