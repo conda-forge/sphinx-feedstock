@@ -106,7 +106,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -157,7 +157,6 @@ Feedstock Maintainers
 * [@AA-Turner](https://github.com/AA-Turner/)
 * [@blink1073](https://github.com/blink1073/)
 * [@ccordoba12](https://github.com/ccordoba12/)
-* [@chohner](https://github.com/chohner/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@matthiasdiener](https://github.com/matthiasdiener/)
 * [@ocefpaf](https://github.com/ocefpaf/)
