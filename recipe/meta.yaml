@@ -1,4 +1,4 @@
-{% set version = "8.0.0" %}
+{% set version = "8.0.2" %}
 
 package:
   name: sphinx
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
-  sha256: 22551dc8fda6038a422bf1de59d91b31837b66afe45a3f30b2d8cc5aa9337343
+  sha256: 0cce1ddcc4fd3532cf1dd283bc7d886758362c5c1de6598696579ce96d8ffa5b
 
 build:
   number: 0
