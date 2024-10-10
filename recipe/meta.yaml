@@ -1,4 +1,4 @@
-{% set version = "8.0.2" %}
+{% set version = "8.1.0" %}
 
 package:
   name: sphinx
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
-  sha256: 0cce1ddcc4fd3532cf1dd283bc7d886758362c5c1de6598696579ce96d8ffa5b
+  sha256: 109454425dbf4c78ecfdd481e56f078376d077edbda29804dba05c5161c8de06
 
 build:
   number: 0
@@ -36,11 +36,11 @@ requirements:
     - requests >=2.30.0
     - tomli >=2.0
     - snowballstemmer >=2.2
-    - sphinxcontrib-applehelp
-    - sphinxcontrib-devhelp
-    - sphinxcontrib-htmlhelp >=2.0.0
-    - sphinxcontrib-jsmath
-    - sphinxcontrib-qthelp
+    - sphinxcontrib-applehelp >=1.0.7
+    - sphinxcontrib-devhelp >=1.0.6
+    - sphinxcontrib-htmlhelp >=2.0.6
+    - sphinxcontrib-jsmath >=1.0.1
+    - sphinxcontrib-qthelp >=1.0.6
     - sphinxcontrib-serializinghtml >=1.1.9
     # only _strictly_ a windows dependency, but appeases `pip check`
     - colorama >=0.4.6
