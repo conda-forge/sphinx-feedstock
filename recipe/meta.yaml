@@ -24,7 +24,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - babel
-    - flit-core >=3.7
+    - flit-core >=3.10
   run:
     - roman-numerals-py >=1.0.0
     - python >={{ python_min }}
