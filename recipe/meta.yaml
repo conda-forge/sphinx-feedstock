@@ -1,5 +1,5 @@
 {% set python_min = "3.11" %}
-{% set version = "8.2.0" %}
+{% set version = "8.2.1" %}
 
 package:
   name: sphinx
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
-  sha256: 5b0067853d6e97f3fa87563e3404ebd008fce03525b55b25da90706764da6215
+  sha256: e4b932951b9c18b039f73b72e4e63afe967d90408700ec222b981ac24647c01e
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - babel
-    - flit-core >=3.10
+    - flit-core >=3.11
   run:
     - python >={{ python_min }}
     - alabaster >=0.7.14
