@@ -1,5 +1,5 @@
 {% set python_min = "3.11" %}
-{% set version = "8.2.0" %}
+{% set version = "8.2.1" %}
 
 package:
   name: sphinx
