@@ -26,7 +26,6 @@ requirements:
     - babel
     - flit-core >=3.11
   run:
-    - roman-numerals >=1.0.0
     - python >={{ python_min }}
     - alabaster >=0.7.14
     - babel >=2.13
