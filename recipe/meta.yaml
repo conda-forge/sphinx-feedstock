@@ -24,7 +24,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - babel
-    - flit-core >=3.11
+    - flit-core >=3.12
   run:
     - python >={{ python_min }}
     - alabaster >=0.7.14
