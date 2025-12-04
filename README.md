@@ -156,7 +156,6 @@ Feedstock Maintainers
 
 * [@AA-Turner](https://github.com/AA-Turner/)
 * [@blink1073](https://github.com/blink1073/)
-* [@ccordoba12](https://github.com/ccordoba12/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@matthiasdiener](https://github.com/matthiasdiener/)
 * [@ocefpaf](https://github.com/ocefpaf/)
