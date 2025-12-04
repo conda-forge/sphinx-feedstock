@@ -1,5 +1,5 @@
 {% set python_min = "3.11" %}
-{% set version = "9.0.1" %}
+{% set version = "9.0.3" %}
 
 package:
   name: sphinx
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sphinx/sphinx-{{ version }}.tar.gz
-  sha256: c820d856657ce7cd41ce2c097f478ac3d7ddad9779ad83de4f0136a81ff388fd
+  sha256: 98ea46e18e3fbfe222c2aebd1988b52fb20afd0dd430f8b7ce06f64d2f53300f
 
 build:
   number: 0
