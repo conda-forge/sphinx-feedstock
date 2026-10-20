@@ -7,18 +7,11 @@ Home: https://www.sphinx-doc.org/
 
 Package license: BSD-2-Clause
 
-Summary: Sphinx makes it easy to create intelligent and beautiful documentation.
+Summary: Python documentation generator
 
 Development: https://github.com/sphinx-doc/sphinx
 
-Documentation: https://www.sphinx-doc.org/en/master/
-
-Sphinx makes it easy to create intelligent and beautiful documentation.
-
-Sphinx uses reStructuredText as its markup language, and many of its strengths
-come from the power and straightforwardness of reStructuredText and its parsing
-and translating suite, the Docutils.
-
+Documentation: https://www.sphinx-doc.org/
 
 Current build status
 ====================
