@@ -1,0 +1,84 @@
+schema_version: 1
+
+context:
+  version: "9.1.1"
+  python_min: "3.12"
+
+package:
+  name: sphinx
+  version: ${{ version }}
+
+source:
+  url: https://files.pythonhosted.org/packages/source/s/sphinx/sphinx-${{ version }}.tar.gz
+  sha256: 48b627f02908f22c601b3ba9c7b17265b4f315dd05c8bc64cd4da41183f44fbc
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv
+  python:
+    entry_points:
+      - sphinx-build = sphinx.cmd.build:main
+      - sphinx-quickstart = sphinx.cmd.quickstart:main
+      - sphinx-apidoc = sphinx.ext.apidoc:main
+      - sphinx-autogen = sphinx.ext.autosummary.generate:main
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - flit-core >=3.12
+    - pip
+  run:
+    - python >=${{ python_min }}
+    - alabaster >=0.7.14
+    - babel >=2.13
+    - docutils >=0.21,<0.23
+    - imagesize >=1.3
+    - jinja2 >=3.1
+    - packaging >=23.0
+    - pygments >=2.17
+    - requests >=2.30.0
+    - roman-numerals >=1.0.0
+    - snowballstemmer >=2.2
+    - sphinxcontrib-applehelp >=1.0.7
+    - sphinxcontrib-devhelp >=1.0.6
+    - sphinxcontrib-htmlhelp >=2.0.6
+    - sphinxcontrib-jsmath >=1.0.1
+    - sphinxcontrib-qthelp >=1.0.6
+    - sphinxcontrib-serializinghtml >=1.1.9
+    # only _strictly_ a windows dependency, noarch is worth installing it in all pkgs.
+    - colorama >=0.4.6
+
+tests:
+  - python:
+      imports:
+        - sphinx
+        - sphinx.builders
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+  - requirements:
+      run:
+        - python
+    script:
+      - sphinx-build --help
+      - sphinx-quickstart --version
+      - sphinx-apidoc --help
+      - sphinx-autogen --help
+
+about:
+  summary: Python documentation generator
+  license: BSD-2-Clause
+  license_file: LICENSE.rst
+  homepage: https://www.sphinx-doc.org/
+  documentation: https://www.sphinx-doc.org/
+  repository: https://github.com/sphinx-doc/sphinx
+
+extra:
+  recipe-maintainers:
+    - AA-Turner
+    - blink1073
+    - jakirkham
+    - matthiasdiener
+    - ocefpaf
